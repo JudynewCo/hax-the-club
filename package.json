@@ -28,19 +28,17 @@
         "test:watch": "web-test-runner test/**/*.test.js --node-resolve --watch"
     },
     "dependencies": {
-        "-": "^0.0.1",
-        "@haxtheweb/create": "^9.0.15",
-        "@haxtheweb/d-d-d": "^10.0.2",
-        "@haxtheweb/future-terminal-text": "^10.0.2",
-        "@haxtheweb/github-preview": "^10.0.2",
-        "@haxtheweb/hax-iconset": "^10.0.2",
-        "@haxtheweb/i18n-manager": "^10.0.2",
-        "@haxtheweb/inline-audio": "^10.0.2",
-        "@haxtheweb/rpg-character": "^10.0.2",
-        "@haxtheweb/simple-icon": "^10.0.2",
-        "@haxtheweb/type-writer": "^10.0.2",
-        "global": "^4.4.0",
-        "lit": "^3.3.0"
+        "@haxtheweb/d-d-d": "^11.0.5",
+        "@haxtheweb/future-terminal-text": "^11.0.5",
+        "@haxtheweb/github-preview": "^11.0.5",
+        "@haxtheweb/hax-iconset": "^11.0.0",
+        "@haxtheweb/i18n-manager": "^11.0.0",
+        "@haxtheweb/inline-audio": "^11.0.0",
+        "@haxtheweb/rpg-character": "^11.0.5",
+        "@haxtheweb/simple-icon": "^11.0.5",
+        "@haxtheweb/type-writer": "^11.0.0",
+        "@haxtheweb/date-card": "^11.0.5",
+        "lit": "^3.3.1"
     },
     "devDependencies": {
         "@babel/preset-env": "^7.16.4",

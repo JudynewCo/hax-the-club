@@ -9,7 +9,7 @@ export class HeaderComponent extends LitElement {
     return {
       course: { type: String },
       instructor: { type: String },
-      contactLink: { type: String },
+      contactLink: { type: String, attribute: "contact-link" },
     };
   }
 
