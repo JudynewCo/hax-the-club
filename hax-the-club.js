@@ -123,7 +123,7 @@ export class HaxTheClub extends I18NMixin(LitElement) {
         right: 0;
         padding: 16px;
         z-index: 1000;
-        background-color: #55555544;
+        background-color: #0d0d14;
         display: flex;
         flex-direction: row-reverse;
         color: white;

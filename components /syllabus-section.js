@@ -55,7 +55,8 @@ export class SyllabusSection extends LitElement {
       flex-wrap: wrap;
       align-content: start;
       position: sticky;
-      top: 25%;
+      top: 10rem;
+      z-index: 1;
     }
 
     .card {

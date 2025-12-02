@@ -30,7 +30,8 @@ export class WeeklyLessons extends LitElement {
     :host {
       display: flex;
       flex-direction: row;
-      align-items: flex-end;
+      align-items: stretch;
+      margin-block: 8rem 4rem;
     }
 
     .card {
@@ -49,7 +50,7 @@ export class WeeklyLessons extends LitElement {
 
     .week {
       background: var(--background-color);
-      color: var(--primary-color);
+      color: var(--highlight-color);
       padding: 1rem 0;
       font-size: 2.2rem;
       font-weight: 700;
@@ -77,6 +78,7 @@ export class WeeklyLessons extends LitElement {
             <div class="week">${String(w.week).padStart(2, "0")}</div>
             <div class="title">${w.title}</div>
             <div class="desc">${w.desc}</div>
+            <div class="progress-bar"></div>
           </div>
         `
       )}

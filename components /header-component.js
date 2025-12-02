@@ -18,12 +18,14 @@ export class HeaderComponent extends LitElement {
       css`
         header {
           margin-top: 2rem;
-          padding: 2rem 3rem;
+          padding: 2rem 3rem 1rem 3rem;
           display: flex;
           justify-content: space-between;
           align-items: center;
           position: sticky;
+          z-index: 2;
           top: 2rem;
+          background: var(--background-color);
         }
 
         .course {
